@@ -2,7 +2,7 @@
 
 ```
 module "db" {
-source = "../"
+source = "nuraaly/rds-cluster/aws"
 region = "us-east-2"
 subnet_ids = [
 "subnet-0764b3812f98463f4", 
